@@ -9,6 +9,7 @@
 </head>
 <body>
 	hello
+	world
 	<myTag:myIterator num="3">
 	3<br>
 	</myTag:myIterator>
