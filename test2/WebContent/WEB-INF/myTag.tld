@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 自定义标签库的头文件 -->
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+  <!-- 标签库的相关信息 -->
+  <display-name>myTagLib</display-name>
+  <!-- 标签库的版本号 -->
+  <tlib-version>1.0</tlib-version>
+  <short-name>myTag</short-name>
+  <uri>http://www.lanqiao.org</uri>
+  
+  <!-- 自定义标签的相关信息 -->
+  <tag>
+    <name>myIterator</name>
+    <tag-class>org.lanqiao.tag.MyIterator</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+    <name>num</name>
+    <required>true</required>
+    </attribute>
+  </tag>
+  
+  <tag>
+  <name>toLowerCase</name>
+  <tag-class>org.lanqiao.tag.ToLowerCase</tag-class>
+  <body-content>JSP</body-content>
+  </tag>
+  
+  <tag>
+  <name>mySimpleIterator</name>
+  <tag-class>org.lanqiao.tag.MySimpleIterator</tag-class>
+  <body-content>scriptless</body-content>
+  <attribute>
+  <name>num</name>
+  <required>true</required>
+  </attribute>
+  </tag>
+</taglib>
