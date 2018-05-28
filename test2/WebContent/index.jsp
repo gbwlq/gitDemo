@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	hello
 	<myTag:myIterator num="3">
 	3<br>
 	</myTag:myIterator>
