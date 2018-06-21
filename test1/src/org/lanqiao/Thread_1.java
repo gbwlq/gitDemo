@@ -1,5 +1,5 @@
 package org.lanqiao;
-
+//线程
 public class Thread_1 extends Thread{
 
 	public void run() {

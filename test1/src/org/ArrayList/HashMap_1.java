@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
+//hash集合
 public class HashMap_1 {
 	public static void main(String[] args) {
 		HashMap<Integer, String> map1=new HashMap<>();

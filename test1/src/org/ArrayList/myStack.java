@@ -1,7 +1,7 @@
 package org.ArrayList;
 
 import java.util.LinkedList;
-
+//栈
 public class myStack {
 
 	LinkedList<String> l=new LinkedList<String>();
