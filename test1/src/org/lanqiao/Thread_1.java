@@ -14,6 +14,9 @@ public class Thread_1 extends Thread{
 		t1.start();
 		t2.start();
 		
+		
+		
+		
 		t1.setName("aa");
 		t2.setName("bb");
 		
